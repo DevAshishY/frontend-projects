@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+}
+.justify_between{
+    justify-content: space-between;
+    display: flex;
+}

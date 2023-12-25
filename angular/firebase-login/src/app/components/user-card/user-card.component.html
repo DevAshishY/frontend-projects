@@ -1,0 +1,13 @@
+<div class="card user-card t-white">
+<div class="background bg-info">
+  <img [src]="user.avatar_url">
+</div>
+<h5>Name: {{user.name}}</h5>
+<h5>BIO: {{user.bio}}</h5>
+<h5>company: {{user.company}}</h5>
+<h5>blog: {{user.blog}}</h5>
+<h5>updated_at: {{user.updated_at | date:"short"}}</h5>
+</div>
+<input type="text" id="item-input" #newItem>
+<button type="button" (click)="addNewItem(newItem.value)">Add to parent's list</button>
+
